@@ -1,5 +1,5 @@
-# fn-important-day
-PHP Function Important Day's with translate
+# Important Day's
+PHP function - Important Day's with CZ translate
 
 Example
 https://codepen.io/lukaselner/pen/BaorgqG
