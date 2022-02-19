@@ -13,5 +13,5 @@ function importantDay($dayD) {
 	$monthNameText = array('Jan' => 'ledna', 'Feb' => 'února', 'Mar' => 'března', 'Apr' => 'dubna', 'May' => 'května', 'Jun' => 'června', 'Jul' => 'července', 'Aug' => 'srpna', 'Sep' => 'září', 'Oct' => 'října', 'Nov' => 'listopadu', 'Dec' => 'prosince');
 	return $dayNameText[Date('D', $unixTime)] . ', ' . date('j', $unixTime) . '. ' . $monthNameText[Date('M', $unixTime)] . ' ' . date('Y', $unixTime);
 }
-echo importantDay('2022-01-01');
+echo importantDay('1970-01-01');
 ?>
